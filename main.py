@@ -25,7 +25,7 @@ while True :
             x = int(landmark.x * frameW) 
             y = int(landmark.y * frameH)
             cv2.circle(frame, (x , y),  3 , (0, 255 , 0))
-            #print(x,y)=
+            #print(x,y)
             if id == 1 :
                 screen_X = screenW / frameW * x
                 screen_Y = screenH / frameW * y
